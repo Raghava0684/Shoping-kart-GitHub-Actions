@@ -19,5 +19,5 @@ jobs:
         distribution: 'temurin'
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-           mvn clean compile -DskipTests=true
-           mvn clean package -DskipTests=true
+      run: mvn -B clean compile -DskipTests=true
+      run: mvn -B clean package -DskipTests=true
