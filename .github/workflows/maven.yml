@@ -19,7 +19,7 @@ jobs:
         distribution: 'temurin'
     - name: Build with Maven
       run: mvn -B clean package -DskipTests=true
-     # run: mkdir staging && cp target/*.jar staging
-    #- run: mvn -B package --file pom.xml
+      run: mkdir staging && cp target/*.jar staging
+    # run: mvn -B package --file pom.xml
      # run: mvn -B clean compile -DskipTests=true
       
