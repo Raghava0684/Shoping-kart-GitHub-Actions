@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Git CLone ') {
+        stage('Git checkout ') {
             steps {
                 git branch: 'qa', url: 'https://github.com/Raghava0684/Shopping-Cart-project.git'
             }
